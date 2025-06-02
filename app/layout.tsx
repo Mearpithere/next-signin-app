@@ -28,6 +28,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <p>Hehehe</p> */}
+        <p className="text-center">Common Layout For Whole Website</p>
         {children}
       </body>
     </html>
